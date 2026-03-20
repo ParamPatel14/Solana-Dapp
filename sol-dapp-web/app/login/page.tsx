@@ -11,7 +11,7 @@ export default async function LoginPage() {
   }
 
   return (
-    <main className="rc-bg rc-grid min-h-screen px-6 py-12 text-slate-100">
+    <main className="rc-bg rc-grid min-h-screen bg-[#070a13] px-6 py-12 text-slate-100">
       <section className="mx-auto grid max-w-4xl gap-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <Link href="/" className="rc-btn rounded-xl bg-slate-950/30 px-4 py-2 text-sm font-bold text-slate-100">

@@ -16,7 +16,7 @@ const LABELS: Record<string, string> = {
 
 const BUTTON_STYLES: Record<string, string> = {
   credentials: "bg-emerald-400 text-slate-950 hover:bg-emerald-300",
-  google: "bg-white text-slate-950 hover:bg-slate-100",
+  google: "bg-slate-950/40 text-slate-100 hover:bg-slate-950/60",
   facebook: "bg-[#1877f2] text-white hover:bg-[#1666d9]",
   twitter: "bg-black text-white hover:bg-slate-900",
 };

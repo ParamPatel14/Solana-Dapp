@@ -244,7 +244,7 @@ export function DashboardClient({ email, name, role }: DashboardClientProps) {
   };
 
   return (
-    <main className="rc-bg rc-grid min-h-screen p-6 text-slate-100">
+    <main className="rc-bg rc-grid min-h-screen bg-[#070a13] p-6 text-slate-100">
       <section className="mx-auto grid w-full max-w-6xl gap-6">
         <div className="rc-glass rc-neo rounded-3xl p-7">
           <div className="flex flex-wrap items-center justify-between gap-3">

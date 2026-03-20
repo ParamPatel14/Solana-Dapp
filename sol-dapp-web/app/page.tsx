@@ -11,7 +11,7 @@ export default async function Home() {
   }
 
   return (
-    <main className="rc-bg rc-grid relative min-h-screen overflow-hidden text-slate-100">
+    <main className="rc-bg rc-grid relative min-h-screen overflow-hidden bg-[#070a13] text-slate-100">
       <section className="mx-auto grid min-h-screen max-w-6xl grid-cols-1 gap-10 px-6 py-16 lg:grid-cols-2 lg:items-center">
         <article className="space-y-6">
           <p className="rc-chip inline-flex rounded-full px-4 py-2 text-xs font-semibold tracking-widest text-cyan-100">

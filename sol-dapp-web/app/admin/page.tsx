@@ -11,7 +11,7 @@ export default async function AdminPage() {
 
   if (session.user.role !== "admin") {
     return (
-      <main className="rc-bg rc-grid min-h-screen px-6 py-14 text-slate-100">
+      <main className="rc-bg rc-grid min-h-screen bg-[#070a13] px-6 py-14 text-slate-100">
         <section className="rc-glass rc-neo mx-auto max-w-2xl rounded-3xl p-7">
           <h1 className="text-2xl font-black text-rose-100">Admin Access Required</h1>
           <p className="mt-2 text-sm text-slate-200">
@@ -29,7 +29,7 @@ export default async function AdminPage() {
   }
 
   return (
-    <main className="rc-bg rc-grid min-h-screen px-6 py-14 text-slate-100">
+    <main className="rc-bg rc-grid min-h-screen bg-[#070a13] px-6 py-14 text-slate-100">
       <section className="rc-glass rc-neo mx-auto max-w-3xl rounded-3xl p-7">
         <p className="rc-chip inline-flex rounded-full px-4 py-2 text-[11px] font-extrabold tracking-widest text-indigo-100">
           ADMIN ONLY
